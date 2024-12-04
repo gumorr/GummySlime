@@ -19,24 +19,24 @@ to the PCB.
 # BOM
 | Component | Value  | Quantity |
 | --------- | ------ | -------- |
-| C1 | 10uF | 1 |
-| C2,C3 | 1uF | 2 |
-| C4 | 0.1uF | 1 |
-| CN1 | USB-C Connector | 1 |
-| D1 | Red LED | 1 |
-| D2 | Green LED | 1 |
-| D3 | SS14 | 1 |
-| Q1 | IRLML6401 | 1 |
-| R1,R2 | 5.1K | 2 |
-| R4,R5 | 3K | 1 |
-| R6,R7 | 1K | 2 |
-| R8,R9 | 100K | 2 |
-| C1 | 4.7K | 2 |
-| SW1 | SSSS811101 | 1 |
-| U1 | ESP32-C3-WROOM-02 | 1 |
-| U2 | IMU Module | 1 |
-| U3 | MIC5504-3.3Y | 1 |
-| U4 | TP4057 | 1 |
+| C1 | [10uF](https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10B106MQ8NRNC/3887606) | 1 |
+| C2,C3 | [1uF](https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10B105KP8NNNC/3887604) | 2 |
+| C4 | [0.1uF](https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R7BB104/302822) | 1 |
+| CN1 | [USB-C Connector](https://www.digikey.com/en/products/detail/gct/USB4105-GF-A/11198441) | 1 |
+| D1 | [Red LED](https://www.digikey.com/en/products/detail/dialight/5973005507F/9385429) | 1 |
+| D2 | [Green LED](https://www.digikey.com/en/products/detail/dialight/5973324507F/9385437) | 1 |
+| D3 | [1N5819W](https://www.digikey.com/en/products/detail/smc-diode-solutions/1N5819W/15964237) | 1 |
+| Q1 | [IRLML6401](https://www.digikey.com/en/products/detail/infineon-technologies/IRLML6401TRPBF/811442) | 1 |
+| R1,R2 | [5.1K](https://www.digikey.com/en/products/detail/vishay-dale/RCS06035K10FKEA/5868559) | 2 |
+| R3 | [3K](https://www.digikey.com/en/products/detail/vishay-dale/RCS06033K00FKEA/5868535) | 1 |
+| R4,R5 | [1K](https://www.digikey.com/en/products/detail/vishay-dale/RCS06031K00FKEA/5866934) | 2 |
+| R6,R7 | [100K](https://www.digikey.com/en/products/detail/vishay-dale/RCS0603100KFKEA/5866946) | 2 |
+| R8,R9 | [4.7K](https://www.digikey.com/en/products/detail/vishay-dale/RCS06034K70FKEA/5866938) | 2 |
+| SW1 | [SSSS811101](https://www.digikey.com/en/products/detail/alps-alpine/SSSS811101/19529062) | 1 |
+| U1 | [ESP32-C3-WROOM-02](https://www.digikey.com/en/products/detail/espressif-systems/ESP32-C3-WROOM-02-H4/14553033) | 1 |
+| U2 | [IMU Module](https://store.kouno.xyz/products/lsm6dso-module) | 1 |
+| U3 | [MIC5504-3.3Y](https://www.digikey.com/en/products/detail/microchip-technology/MIC5504-3-3YM5-TR/4864018) | 1 |
+| U4 | [TP4057](https://www.digikey.com/en/products/detail/evvo/TP4057/22482076) | 1 |
 
 # Flashing
 You will most likely have to flash using VS Code. Here are all of the relevant settings I personally use for flashing these boards:
